@@ -14,7 +14,7 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190515
 
 # Install dependencies
 RUN apt update
