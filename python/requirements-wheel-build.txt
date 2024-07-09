@@ -3,3 +3,4 @@ numpy==1.16.6; python_version < "3.9"
 numpy==1.19.4; python_version >= "3.9"
 setuptools_scm
 wheel
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
