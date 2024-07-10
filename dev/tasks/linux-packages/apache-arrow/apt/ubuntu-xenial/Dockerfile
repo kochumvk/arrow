@@ -15,7 +15,7 @@
 # specific language governing permissions and limitations
 # under the License.
 
-ARG FROM=ubuntu:xenial
+ARG FROM=ubuntu:xenial-20201014
 FROM ${FROM}
 
 COPY qemu-* /usr/bin/
